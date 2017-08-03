@@ -1,0 +1,3 @@
+include ':app'
+include ':hwsdk'
+project(':hwsdk').projectDir = new File('../hwsdk')
