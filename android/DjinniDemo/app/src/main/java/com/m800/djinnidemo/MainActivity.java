@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private HelloWorld helloWorldInterface;
 
     static {
-        System.loadLibrary("helloworld");
+        System.loadLibrary("bridge-android");
     }
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonWasPressed(View view) {
-        String myString = helloWorldInterface.getHelloWorld("SDK") + "\n";
+        String myString = helloWorldInterface.getHelloWorld("Android") + "\n";
         TextView t = (TextView) findViewById(R.id.helloWorldText);
         t.setText(myString + t.getText());
     }

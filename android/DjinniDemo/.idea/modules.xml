@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DjinniDemo.iml" filepath="$PROJECT_DIR$/DjinniDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../hwsdk/hwsdk.iml" filepath="$PROJECT_DIR$/../hwsdk/hwsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bridge-android/bridge-android.iml" filepath="$PROJECT_DIR$/../bridge-android/bridge-android.iml" />
     </modules>
   </component>
 </project>

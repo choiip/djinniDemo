@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
 
 base_dir=$(cd "`dirname "0"`" && pwd)
-cpp_out="$base_dir/android/hwsdk/src/main/cpp"
-jni_out="$base_dir/android/hwsdk/src/main/cpp"
-objc_out="$base_dir/generated-src/objc"
-java_out="$base_dir/android/hwsdk/src/main/java/com/m800/hwsdk"
+cpp_out="$base_dir/sdk/src"
+jni_out="$base_dir/android/bridge-android/src/main/jni"
+objc_out="$base_dir/ios/bridge-ios/src"
+java_out="$base_dir/android/bridge-android/src/main/java/com/m800/hwsdk"
 java_package="com.m800.hwsdk"
 namespace="hwsdk"
 objc_prefix="HW"
